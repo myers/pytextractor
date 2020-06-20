@@ -6,11 +6,11 @@ with open('README.md', 'r') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    'imutils==0.5.2',
+    'imutils>=0.5.2',
     'opencv-python>=4.1.1.26',
-    'Pillow==6.2.2',
-    'pytesseract==0.2.6',
-    'requests==2.22.0',
+    'Pillow>=6.2.2',
+    'pytesseract>=0.2.6',
+    'requests>=2.22.0',
 ]
 
 
